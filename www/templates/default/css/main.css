@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    height: 100vh;
+    font-weight: 200;
+    padding: 10px;
+    /*background-color: #f0c040;*/
+    font-size: 14px;
+    font-family: Verdana, serif;
+    overflow-y: hidden;
+
+    background-size: cover;
+
+}
+
+body {
+    background-image: url(../img/prodacts/фон.png);
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+#content {
+    width: 800px;
+    padding-left: 20px;
+    min-height: 300px;
+    top: 0;
+    right: 0;
+    
+    display: inline-flex;
+    background-color: #031f8d;
+}
+.card {
+    display: inline-flex;
+    margin: 10px;
+}
+
+
+/*// Variable overrides first*/
+/*$primary: #900;*/
+/*$enable-shadows: true;*/
+/*$prefix: "mo-";*/
+
+/*// Then import Bootstrap*/
+/*@import "../node_modules/bootstrap/scss/bootstrap";*/
